@@ -1,0 +1,7 @@
+resolver: nightly-2017-08-15
+
+packages:
+- '.'
+
+extra-deps:
+- generic-lens-0.3.0.1
