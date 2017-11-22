@@ -12,7 +12,7 @@ Example:
 ========
 
 ```haskell
-{-# LANGUAGE OverloadedLabels, DerivingGeneric #- }
+{-# LANGUAGE OverloadedLabels, DeriveGeneric #- }
 
 module Example
 
