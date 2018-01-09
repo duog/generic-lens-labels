@@ -2,6 +2,11 @@ master build: [![Build Status](https://travis-ci.org/duog/generic-lens-labels.sv
 
 develop build: [![Build Status](https://travis-ci.org/duog/generic-lens-labels.svg?branch=develop)](https://travis-ci.org/duog/generic-lens-labels)
 
+develop branch
+==================
+
+I may rebase develop from time to time, let me know if that's causing you problems.
+
 Summary
 =======
 
