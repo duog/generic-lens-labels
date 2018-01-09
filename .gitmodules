@@ -1,0 +1,3 @@
+[submodule "generic-lens"]
+	path = generic-lens
+	url = https://github.com/kcsongor/generic-lens

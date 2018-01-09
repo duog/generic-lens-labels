@@ -20,7 +20,7 @@ _bar = #bar
 {-
 This is the instance head that seems to give the best type inference.
 -}
-instance (HasField x a s, Functor f, lens ~ ((a -> f a) -> s -> f s)) =>
+instance (HasField x s t a b, Functor f, lens ~ ((a -> f b) -> s -> f t)) =>
   IsLabel x lens where
 #if __GLASGOW_HASKELL__ >= 802
   fromLabel = field @ x

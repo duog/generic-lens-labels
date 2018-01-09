@@ -2,6 +2,4 @@ resolver: lts-10.3
 
 packages:
 - '.'
-
-extra-deps:
-- generic-lens-0.3.0.1
+- generic-lens
