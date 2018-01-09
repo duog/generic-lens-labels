@@ -2,15 +2,31 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                generic-lens-labels
-version:             0.1.0.0
+version:             0.1.0.1
+
 synopsis: GHC.OverloadedLabels.IsLabel instance for lenses from ghc-generics
--- description:
-license:             BSD3
-license-file:        LICENSE
-author:              Douglas Wilson
-maintainer:          douglas.wilson@gmail.com
--- copyright:
--- category:
+description:
+  Provides an orphan GHC.OverloadedLabels.IsLabel instance for lenses from
+  ghc-generics. All effort is taken to play as nicely as possible with other
+  IsLabel instances -- however orphan instances are inherently problematic.
+  Please do not depend on this package from any hackage libraries.
+category:             Generics, Records, Lens, OverloadeLabels
+
+copyright:            Copyright (C) 2017-2018 Douglas Wilson
+license:              BSD3
+license-file:         LICENSE
+
+author:               Douglas Wilson
+maintainer:           douglas.wilson@gmail.com
+homepage:             https://github.com/duog/generic-lens-labels
+bug-reports:          http://github.com/ekmett/lens/issues
+
+build-type:           Simple
+cabal-version:        >= 1.10
+
+-- TODO
+tested-With:          GHC == 7.10.3, GHC == 8.2.1
+
 build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
