@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/duog/generic-lens-labels.svg?branch=master)](https://travis-ci.org/duog/generic-lens-labels)
+
 Summary
 =======
 
