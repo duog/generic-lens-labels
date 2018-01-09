@@ -19,7 +19,7 @@ license-file:         LICENSE
 author:               Douglas Wilson
 maintainer:           douglas.wilson@gmail.com
 homepage:             https://github.com/duog/generic-lens-labels
-bug-reports:          http://github.com/duog/generic-lens-labels/issues
+bug-reports:          https://github.com/duog/generic-lens-labels/issues
 
 build-type:           Simple
 cabal-version:        >= 1.10
