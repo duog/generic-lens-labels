@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                generic-lens-labels
-version:             0.1.0.1
+version:             0.1.0.2
 
 synopsis: GHC.OverloadedLabels.IsLabel instance for lenses from ghc-generics
 description:
@@ -19,7 +19,7 @@ license-file:         LICENSE
 author:               Douglas Wilson
 maintainer:           douglas.wilson@gmail.com
 homepage:             https://github.com/duog/generic-lens-labels
-bug-reports:          http://github.com/ekmett/lens/issues
+bug-reports:          http://github.com/duog/generic-lens-labels/issues
 
 build-type:           Simple
 cabal-version:        >= 1.10
