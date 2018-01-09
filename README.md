@@ -1,4 +1,5 @@
 master build: [![Build Status](https://travis-ci.org/duog/generic-lens-labels.svg?branch=master)](https://travis-ci.org/duog/generic-lens-labels)
+
 develop build: [![Build Status](https://travis-ci.org/duog/generic-lens-labels.svg?branch=develop)](https://travis-ci.org/duog/generic-lens-labels)
 
 Summary
