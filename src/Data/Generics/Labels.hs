@@ -22,7 +22,8 @@ This is the instance head that seems to give the best type inference.
 -}
 
 #if MIN_VERSION_generic_lens(0,5,0)
-#if __GLASGOW_HASKELL__ < 802
+
+#if (__GLASGOW_HASKELL__ < 802)
 
 instance (HasField x s t a b, Functor f, lens ~ ((a -> f b) -> s -> f t)) =>
   IsLabel x lens where
@@ -38,10 +39,8 @@ instance (HasField x s t a b, Functor f, lens ~ ((a -> f b) -> s -> f t)) =>
 #endif
 -- __GLASGOW_HASKELL
 
-#else
+#elif (__GLASGOW_HASKELL__ < 802)
 -- MIN_VERSION_generic_lens
-
-#if __GLASGOW_HASKELL < 802
 
 instance (HasField x a s, Functor f, lens ~ ((a -> f a) -> s -> f s)) =>
   IsLabel x lens where
@@ -56,6 +55,3 @@ instance (HasField x a s, Functor f, lens ~ ((a -> f a) -> s -> f s)) =>
 
 #endif
 -- __GLASGOW_HASKELL
-
-#endif
--- MIN_VERSION_generic_lens

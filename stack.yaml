@@ -3,3 +3,12 @@ resolver: lts-10.3
 packages:
 - '.'
 - generic-lens
+
+# The following is useful for testing with hackage versions of generic-lens
+extra-deps:
+# - generic-lens-0.3.0.0
+# - generic-lens-0.3.0.1
+# - generic-lens-0.4.0.0
+# - generic-lens-0.4.1.0
+# - generic-lens-0.5.0.0
+# - generic-lens-0.5.1.0
