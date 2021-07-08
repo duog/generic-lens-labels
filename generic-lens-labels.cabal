@@ -10,7 +10,7 @@ description:
   ghc-generics. All effort is taken to play as nicely as possible with other
   IsLabel instances -- however orphan instances are inherently problematic.
   Please do not depend on this package from any hackage libraries.
-category:             Generics, Records, Lens, OverloadeLabels
+category:             Generics, Records, Lens, OverloadedLabels
 
 copyright:            Copyright (C) 2017-2018 Douglas Wilson
 license:              BSD3
